@@ -1,0 +1,82 @@
+.login {
+  width: 50%;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid lightgray;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.sign-in {
+  width: 35%;
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.google-btn {
+  border-radius: 50px;
+}
+
+
+.login-btn {
+    background: none;
+    border: none;
+    background-color: #FF6E40;
+    color: white;
+    padding: 10px;
+}
+
+
+.input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    border-radius: 0;
+}
+
+
+.link-color {
+    color: #FF6E40;
+    text-decoration: underline;
+}
+
+.link-color:hover {
+    color: #FF6E40;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+@media (max-width: 767.98px) {
+  .login {
+    width: 75%;
+  }
+  .sign-in {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .login {
+    width: 90%;
+  }
+}

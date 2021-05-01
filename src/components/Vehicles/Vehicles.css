@@ -1,0 +1,12 @@
+.radius {
+    border-radius: 10px;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: black;
+    text-decoration: none;
+}

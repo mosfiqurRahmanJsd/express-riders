@@ -1,0 +1,26 @@
+.area {
+    background-color: #EFEFEF;
+    border-radius: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.destination {
+    height: 80vh;
+}
+
+.search-btn {
+    background-color: #FF6E40;
+    border-radius: 5px;
+    color: white;
+}
+
+.search-btn:hover {
+    color:white; 
+    text-decoration: none;
+}
