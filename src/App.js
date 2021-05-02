@@ -4,8 +4,8 @@ import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
 import Destination from "./components/Destination/Destination";
-import { createContext } from "react/cjs/react.development";
-import { useState } from "react";
+
+import { createContext, useState } from "react";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import AreaDescription from "./components/AreaDescription/AreaDescription";
 
